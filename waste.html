@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .aa{
+            /* position: relative; */
+            width: 100%;
+            height: 400px;
+            background: url("./book-bg.jpg");
+            background-size: cover;
+
+        }
+        .bb1{
+            height: 210px;
+            width: 260px;
+            background-color: aliceblue;
+        }
+        .cc{
+            display: flex;
+            justify-content: center;
+            padding-top: 70px;
+        }
+        .bb1{
+            text-align: center;
+            justify-content: center;
+        }
+        h3{
+            padding-top: 10px;
+        }
+        .btn{
+           background-color:  coral;
+           height: 30px;
+           width: 108px;
+           border: none;
+           border-radius: 3px;
+           cursor: pointer;
+        }
+        .xyz{
+            width: 100%;
+            height: 160px;
+            background-color: coral;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: aliceblue;
+        }
+        .chandu{
+            background-color: white;
+            color: coral;
+            border: none;
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            cursor: pointer;
+            /* text-transform: uppercase; */
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+        <div class="cc">
+        <div class="bb">
+            <img src="./book_left_image.jpg" width="180" height="210px">
+        </div>
+        <div class="bb1">
+            <h3>Reservation</h3><br>
+        <!-- </label>    -->
+        <select>  
+        <option class="input" value="Select day" id="1">Select day</option>  
+        <option class="input" value="Sunday" id="1">Sunday</option>  
+        <option class="input" value="Monday" id="1">Monday</option>  
+        <option class="input" value="Tuesday" id="1">Tuesday</option>  
+        <option class="input" value="Wednesday" id="1">Wednesday</option>  
+        <option class="input" value="Thursday" id="1">Thursday</option>  
+        <option class="input" value="Friday" id="1">Friday</option>
+        <option class="input" value="saturday" id="1">Saturday</option> 
+        </select>  
+            <!-- <input type="text" id="selectors" placeholder="select day" size="10"> -->
+            <!-- <input type="select time" id="hour" placeholder="Select time" size="10"><br><br> -->
+        <!-- </label>    -->
+        <select>  
+        <option class="input" value="Course" id="1">Select time</option>  
+        <option class="input" value="BCA" id="1">12:00 pm</option>
+        <option class="input" value="BCA" id="1">12:30 pm</option>  
+        <option class="input" value="BBA" id="1">01:00 pm</option>
+        <option class="input" value="BBA" id="1">01:30 pm</option>   
+        <option class="input" value="B.Tech" id="1">02:00 pm</option> 
+        <option class="input" value="B.Tech" id="1">02:30 pm</option> 
+        <option class="input" value="MBA" id="1">03:00 pm</option> 
+        <option class="input" value="MBA" id="1">03:30 pm</option> 
+        <option class="input" value="MCA" id="1">04:00 pm</option>
+        <option class="input" value="MCA" id="1">04:30 pm</option>  
+        <option class="input" value="M.Tech" id="1">05:00 pm</option>
+        <option class="input" value="M.Tech" id="1">05:30 pm</option>
+        <option class="input" value="saturday" id="1">06:00 pm</option>
+        <option class="input" value="saturday" id="1">06:30 pm</option>  
+        <option class="input" value="BCA" id="1">07:00 pm</option>
+        <option class="input" value="BCA" id="1">07:30 pm</option>  
+        <option class="input" value="BBA" id="1">08:00 pm</option>
+        <option class="input" value="BBA" id="1">08:30 pm</option>   
+        <option class="input" value="B.Tech" id="1">09:00 pm</option> 
+        <option class="input" value="B.Tech" id="1">09:30 pm</option> 
+        <option class="input" value="MBA" id="1">10:00 pm</option> 
+        <option class="input" value="MBA" id="1">10:30 pm</option> 
+        <option class="input" value="MCA" id="1">11:00 pm</option>
+        <option class="input" value="MCA" id="1">11:30 pm</option>  
+        <option class="input" value="M.Tech" id="1">12:00 pm</option>
+        </select><br><br> 
+            <input type="fullname" id="name" placeholder="fullname" size="10">
+            <input type="phone number" id="phone number" placeholder="phone number" size="10"><br><br>
+            <select>
+            <option class="input" value="BCA" id="1">how many members</option>
+        <option class="input" value="1" id="1">1</option>  
+        <option class="input" value="BBA" id="1">2</option>
+        <option class="input" value="BBA" id="1">3</option>
+        <option class="input" value="BBA" id="1">4</option>
+    </select>
+            <!-- <input type="text" id="select" placeholder="how many persons" size="10"> -->
+            <button class="btn">Book Table</button>
+        </div>
+    </div>
+    </div>
+    <div class="xyz">
+        <h3>get application for your phone</h3><br><br>
+        <button class="chandu">Download now</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+ #services .container2{
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+.service-item{
+    text-align: center;
+}
+.service-item a{
+    text-decoration: none;
+}
+.service-item img{
+    border: 10px solid #eaf0ff;
+    border-radius: 50%;
+}
+.service-item h4{
+    color: #121212;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width:600px){
+       .container2{
+        flex-direction: column;
+        text-align: center;
+       }
+}
+    </style>
+</head>
+<body>
+<section id="services">
+    <div class="container2">
+        <div class="service-item">
+            <a href="#">
+                <img src="./cook_breakfast.png" alt="breakfast">
+                <h4>Breakfast</h4>
+            </a>
+        </div>
+        <!-- <div class="container"> -->
+            <div class="service-item">
+                <a href="#">
+                    <img src="./cook_lunch.png" alt="dessert">
+                    <h4>Lunch</h4>
+                </a>
+            </div>
+            <!-- <div class="container"> -->
+                <div class="service-item">
+                    <a href="#">
+                        <img src="./cook_dinner.png" alt="Dinner">
+                        <h4>Dinner</h4>
+                    </a>
+            </div>
+            <!-- <div class="container"> -->
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="./cook_dessert.png" alt="Lunch">
+                            <h4>dessert</h4>
+                    </a>
+            </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,172 @@
+*,*::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    background-color: #d8deed;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d8deed;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+ul li a{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.header_top h1{
+    font-family: 'spectral,serif';
+    font-weight: 400;
+    font-size: 44px;
+}
+#banner{
+    padding: 180px,100px;
+    text-align: center;
+    color: white;
+    background-image: url("./banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: 100px;
+}
+.banner_btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #d8deed;
+    text-decoration: none;
+    padding: 12px,20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 5px;
+    border-radius: 3px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-size: 44px;
+    margin: 20px 0px;
+}
+#banner h2{
+    font-family: 'spectral',serif;
+}
+#banner h4,#banner p{
+    font-family: 'roboto',sans-serif;
+    margin-bottom: 10px;
+}
+#banner p{
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+body{
+    font-family: 'roboto',sans-serif;
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#cook-delecious{
+    padding: 120px;
+}
+#cook-delecious .container{
+    display: flex;
+    align-items: center;
+}
+#cook-delecious .img-left,
+#cook-delecious .img-right{
+    display: flex;
+}
+#cook-delecious .img-left img,
+#cook-delecious .img-right img{
+    width: 100%;
+}
+#cook-delecious .middle-box{
+    flex: 100%;
+    background-color: #f2745f;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.contact-content{
+    background-color: #f3826f;
+    padding: 20px 30px;
+}
+.middle-box .heading h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contact-content h5{
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.contact-content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.middle-box-or{
+    border: 1px solid;
+    display: inline;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 5px;
+    margin: 20px;
+}
+.middle-box-btn a{
+    text-decoration: none;
+    background-color: white;
+    color: #f2745f;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+#services .container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.service-item{
+    text-align: center;
+}
+.service-item a{
+    text-decoration: none;
+}
+.service-item img{
+    border: 10px solid #eaf0ff;
+    border-radius: 50%;
+}
+.service-item h4{
+    color: #121212;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 400;
+}

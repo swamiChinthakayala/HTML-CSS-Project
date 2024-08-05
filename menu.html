@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .card-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+            padding-top: 10px;
+        }
+        .cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 325px;
+        }
+        .cardbody{
+            background-color: #d8deed;
+            width: 300px;
+            margin: 10px;
+            padding: 7%;
+           
+        }
+        .description{
+            background-color:white;
+            padding: 30px;
+        }
+        button{
+            border: none;
+            background-color: coral;
+            padding: 10px 10px;
+            width: 100%;
+           text-align: center;
+        }
+        h3{
+            color: black;
+            font-family: 'Roboto', sans-serif;
+        }
+        .swamy{
+            /* position: relative; */
+            width: 100%;
+            height: auto;
+        }
+        h4{
+         text-align: center;
+         padding-top: 40px;
+         font-family: sans-serif;
+        }
+        .box1{
+            height: 30px;
+            width: 60px;
+            background-color: rgb(229, 227, 227);
+            position: absolute;
+            /* display: flex; */
+            transform: translateX(195px) translateY(118px);
+            text-align: center;
+            padding-top: 4px;
+            color: red;
+
+        }
+    
+        .photo{
+            position: relative;
+        }
+        @media screen and (min-width: 576px){
+            .card-container{
+               flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h4>weekly featured food</h4><br>
+    <div class="card-container">
+    <div class="cards">
+        <div class="cardbody">
+            <h3>Break Fast</h3><br><hr><br>
+            <div class="photo">
+                <div class="box1">
+                    $4.50
+                </div>
+            <img class="swamy" src="./breakfast_item.jpg" width="270">
+            </div>
+                <div class="description">
+                    <h5>Kale chips Art party</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sit enim maxime asperiores mo</p>
+                </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="cardbody">
+                <h3>Lunch</h3><br><hr><br>
+                <div class="box1">
+                    $12.50
+                </div>
+                <img class="swamy" src="./lunch_item.jpg" width="270">
+                    <div class="description">
+                        <h5>Kale chips Art party</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sit enim maxime asperiores mo</p>
+                    </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="cardbody">
+             <h3>Dinner</h3><br><hr><br>
+             <div class="box1">
+                $7.50
+            </div>
+                <img class="swamy" src="./dinner_item.jpg" width="270">
+                    <div class="description">
+                        <h5>Kale chips Art party</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sit enim maxime asperiores mo</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

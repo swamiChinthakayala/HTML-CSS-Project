@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+    justify-content: center;
+    display: flex;
+    column-gap: 50px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.jump{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.paragraph{
+    font-size: small;
+    justify-content: center;
+    padding-top: 25px;
+}
+.Disign{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 6px;
+        margin: 4px;
+    }
+}

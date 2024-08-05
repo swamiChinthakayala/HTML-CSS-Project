@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            object-fit: contain;
+        }
+        .ball{
+            background-color: rgb(248, 252, 252); 
+            padding: 10px;
+            width: 110%;
+        }
+        body{
+            background-color: rgb(240, 247, 254);
+            background-repeat: no-repeat;
+            background-position: cover;
+        }
+        .cat{
+            position: relative;
+            height: 100%;
+        }
+        .apple{
+            display: flex;
+            width: 60%;
+            overflow: hidden;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .elephant{
+            font-size: large;
+        }
+        .dog{
+            font-size: small;
+            padding-top: 3px;
+        }
+        .fish{
+            font-size: small;
+            padding-top: 9px;
+        }
+        .goat{
+            font-size: small;
+            color: coral;
+        }
+        .height{
+            position: absolute;
+            background-color: rgb(238, 234, 230);
+        }
+        .ink{
+            color: coral;
+            text-align: center;
+            padding-top: 3px;
+        }
+        /* .king{
+            margin-left: 15%;
+            margin-right: 15%;
+        } */
+        .lion{
+            text-align: center;
+            padding-top: 3%;
+            text-transform: uppercase;
+        }
+        @media screen and (min-width:600px){
+            .king{
+                display: grid;
+                grid-template-columns:repeat(2,1fr);
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="lion">Our Blog Post</p>
+    <div class="king">
+    <div class="apple">
+        <img class="cat" src="./blog_post_01.jpg">
+        <div class="height">
+            <p class="ink">26 Oct 2017</p>
+        </div>
+        <div class="ball">
+            <p class="elephant">Stumptown Tofu Schlitz</p1>
+            <p class="dog">Branding/ Admin</p>
+            <p class="fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et ab eum temporibus fugit cupiditate lagygifsvuysefrhu</p><br>
+            <p class="goat">continue reading</p>
+        </div>
+    </div>
+    <div class="apple">
+        <img class="cat" src="./blog_post_02.jpg">
+        <div class="height">
+            <p class="ink">26 Oct 2017</p>
+        </div>
+        <div class="ball">
+            <p class="elephant">Stumptown Tofu Schlitz</p1>
+            <p class="dog">Branding/ Admin</p>
+            <p class="fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et ab eum temporibus fugit cupiditate lagygifsvuysefrhu</p><br>
+            <p class="goat">continue reading</p>
+        </div>
+    </div> <div class="apple">
+        <img class="cat" src="./blog_post_03.jpg" >
+        <div class="height">
+            <p class="ink">26 Oct 2017</p>
+        </div>
+        <div class="ball">
+            <p class="elephant">Stumptown Tofu Schlitz</p1>
+            <p class="dog">Branding/ Admin</p>
+            <p class="fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et ab eum temporibus fugit cupiditate lagygifsvuysefrhu</p><br>
+            <p class="goat">continue reading</p>
+        </div>
+    </div> <div class="apple">
+        <img class="cat" src="./blog_post_04.jpg">
+        <div class="height">
+            <p class="ink">26 Oct 2017</p>
+        </div>
+        <div class="ball">
+            <p class="elephant">Stumptown Tofu Schlitz</p1>
+            <p class="dog">Branding/ Admin</p>
+            <p class="fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et ab eum temporibus fugit cupiditate lagygifsvuysefrhu</p><br>
+            <p class="goat">continue reading</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

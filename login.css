@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.milk{
+width: 100%;
+height: 40vh;
+background: url("./signup-bg.jpg");
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+background-size: cover;
+margin-top: 13%;
+}
+.diesel{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.watch{
+    height: 20%;
+    width: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.petrol{
+   display: flex;
+   padding-top: 80px;
+}
+.petrol> .diesel{
+    padding-left: 90px;
+}
+#in{
+    height: 39px;
+    width: 50vh;
+}
+.water{
+    padding-top: 10px;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+}

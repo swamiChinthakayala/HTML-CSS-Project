@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aa{
+    width: 100%;
+    height: 400px;
+    background: url("./book-bg.jpg");
+    background-size: cover;
+
+}
+.bb1{
+    height: 210px;
+    width: 260px;
+    background-color: aliceblue;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.bb1{
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    padding-top: 5px;
+}
+.btn{
+   background-color:   #f3826f;
+   height: 40px;
+   width: 100px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+.xyz{
+    width: 100%;
+    height: 160px;
+    background-color:  #f3826f;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.chandu{
+    background-color: white;
+    color: coral;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.yz{
+    padding-top: 35px;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:  'Roboto', sans-serif;
+}
+.abc{
+    padding-top: 20px;
+}
+.head{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

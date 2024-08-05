@@ -1,0 +1,30 @@
+
+#services .container2{
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 200px;
+}
+.service-item{
+    text-align: center;
+}
+.service-item a{
+    text-decoration: none;
+}
+.service-item img{
+    border: 10px solid #eaf0ff;
+    border-radius: 50%;
+}
+.service-item h4{
+    color: #121212;
+    font-size: 22px;
+    font-weight: 400;
+}
+@media screen and (max-width:600px){
+       .container2{
+        flex-direction: column;
+        text-align: center;
+       }
+}

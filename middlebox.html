@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.image1{
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+.cook_img{
+
+    width: 30%;
+}
+.mg1{
+    order: 1;
+}
+.mg3{
+    order: 3;
+}
+.delicious{
+   order: 2; 
+    top: 9%;
+    background-color:  #f2745f;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+.delicious> p{
+    text-align: center;
+}
+.call{
+    background-color:  #f3826f;
+    height: 100%;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.call1{
+    width: 60%;
+    margin-left: 19%;
+    
+}
+.call {
+    font-size: 0.6em;
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    word-spacing: 1px;
+}
+.call p{
+    font-size: 18px;
+    color: white;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    background-color: white;
+    border: none;
+    min-height: 40px;
+    min-width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.or{
+    color: white;
+    font-size: 80%;
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:300px) {
+    .call p,.p1{
+        font-size: 10px;
+    }
+    .call span{
+        font-size: 12px;
+    }
+
+}
+</style>
+</head>
+<body>
+    <div class="image1">
+        <img class="cook_img mg1" src="./cook_01.jpg" width="100%" >
+        <img class="cook_img mg3" src="./cook_02.jpg" width="100%" >
+        <div class="delicious">
+            <h3><span>WE COOK DELICIOUS</span></h3>
+            <div class="call1">
+            <div class="call">
+               <p1>YOU CAN CALL US ON</p1>
+               <P>+1234 567 8910</P>
+            </div>
+        </div>
+               <p class="or">OR</p>
+               <button>ORDER NOW</button>
+            
+        </div>
+    </div>
+</body>
+</html>
